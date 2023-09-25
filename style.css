@@ -83,7 +83,7 @@ footer {
     width:1000px;
     padding-top:100px;
     margin: 0 auto;
-    
+    padding-left:100px;
 
 }
 
@@ -143,9 +143,9 @@ footer {
     width:300px;
 }
 
-/* .change-wrapper {
+.change-wrapper {
     display:none;
-} */
+}
 
 .change-wrapper{
     padding-top:40px;
