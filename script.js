@@ -10,12 +10,7 @@ function escapeHtml(text) {
     return text.replace(/[&<>"']/g, function(m) {
         return map[m];
     });
-
-    images.foreach(image =>{
-        images.src = "images/waffle_image.jpg";
-    });
 }
-
 
 
 function changeImage(buttonNumber) {
