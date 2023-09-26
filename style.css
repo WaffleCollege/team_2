@@ -87,7 +87,7 @@ footer {
 
 }
 
-.image-button1 {
+.button1 {
     margin-right: 90px;
     border-radius:45px;
     height:70px;
@@ -97,7 +97,7 @@ footer {
     opacity:0.7;
 }
 
-.image-button2 {
+.button2 {
     margin-right: 90px;
     border-radius:45px;
     height:70px;
@@ -107,7 +107,7 @@ footer {
     opacity:0.7;
 }
 
-.image-button3 {
+.button3 {
     margin-right: 90px;
     border-radius:45px;
     height:70px;
@@ -117,7 +117,7 @@ footer {
     opacity:0.7;
 }
 
-.image-button4 {
+.button4 {
     margin-right: 90px;
     border-radius:45px;
     height:70px;
@@ -127,7 +127,7 @@ footer {
     opacity:0.7;
 }
 
-.image-button5{
+.button5{
     background-color: #569180;
     border:none ;
     border-radius:45px;
@@ -137,20 +137,20 @@ footer {
 
 }
 
-#image1{
+#images{
     float:left;
     height:200px;
     width:300px;
 }
 
-.change-wrapper {
-    display:none;
-}
 
-.change-wrapper{
+
+#image-container{
     padding-top:40px;
+
 }
 
-.num1{
+#explanation{
     float:right;
+    display:none;
 }
