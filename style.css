@@ -146,20 +146,30 @@ footer {
 
 }
 
-#images{
+.pic{
     float:left;
-    height:200px;
-    width:300px;
+    
 }
 
+.images{
 
+     height:200px;
+     width:300px;
+}
 
-#image-container{
+.image-container{
     padding-top:40px;
 
 }
 
-#explanation{
+.txt{
+    
+    width:800px;
+    
+    text-align:center;
     float:right;
+}
+
+.explanation{
     display:none;
 }
