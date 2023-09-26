@@ -105,12 +105,15 @@ footer {
     border:none ;
     opacity:0.7;
     border: 3px solid #CF6EAD;
+    box-shadow: 10px 10px 4px #ccc;
 }
 
 .button1:hover{
     background: #fff;
     color: #CF6EAD;
     transform: scale(1.1);
+    box-shadow: none;
+    transition: 0.5s;
 }
 
 .button2 {
@@ -122,12 +125,15 @@ footer {
     border:none ;
     opacity:0.7;
     border: 3px solid #FFD978; 
+    box-shadow: 10px 10px 4px #ccc;
 }
 
 .button2:hover{
     background: #fff;
     color: #FFD978;
     transform: scale(1.1);
+    box-shadow: none;
+    transition: 0.5s;
 }
 
 .button3 {
@@ -139,12 +145,15 @@ footer {
     border:none ;
     opacity:0.7;
     border: 3px solid #FFEC99;
+    box-shadow: 10px 10px 4px #ccc;
 }
 
 .button3:hover{
     background: #fff;
     color: #FFEC99;
     transform: scale(1.1);
+    box-shadow: none;
+    transition: 0.5s;
 }
 
 .button4 {
@@ -156,12 +165,14 @@ footer {
     border:none ;
     opacity:0.7;
     border: 3px solid #6EB65F;
+    box-shadow: 10px 10px 4px #ccc;
 }
 
 .button4:hover{
     background: #fff;
     color: #6EB65F;
     transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .button5{
@@ -172,39 +183,33 @@ footer {
     width:120px;
     opacity:0.7;
     border: 3px solid #569180;
-
+    box-shadow: 10px 10px 4px #ccc;
 }
 
 .button5:hover{
     background: #fff;
     color: #569180;
     transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .pic{
     float:left;
-    
 }
 
 .images{
-     /* display:none; */
      height:200px;
      width:300px;
 }
 
 .image-container{
     padding-top:40px;
-
 }
 
+
 .txt{
-    
     width:800px;
-    
     text-align:center;
     float:right;
 }
 
-/* .explanation{ */
-    /* display:none;
-} */
