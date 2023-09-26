@@ -11,7 +11,9 @@ function escapeHtml(text) {
         return map[m];
     });
 }
-
+{
+    document.write('<img src="images/waffle_image.jpg">');
+    }
 
 function changeImage(buttonNumber) {
     const images = document.querySelectorAll(".images");
