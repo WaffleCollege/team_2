@@ -32,4 +32,18 @@ button2.addEventListener("click",function(){
 
     imageContainer.style.display = "block";
 
-//これはテストです
+//button3が押されたとき
+button3.addEventListener("click",function(){
+    image.src = "images/sumeli_team2.jpg";
+    text.textContent = "テラス席でゆったり\
+    パンケーキが大好物の私が選ぶランキングNo.1!\
+    フードも種類が豊富で、ご飯にもちょっとした休憩にもぴったり！\
+    テラス席では近くの公園の自然を眺めながらゆったりと過ごせます♪\
+    ぷるぷるパンケーキ: ¥1,650\
+    512cafe&grill 東京乃木坂\
+    東京都港区赤坂9-5-12\
+    乃木坂駅 徒歩4分\
+    webサイト: https://512.tokyo\
+})
+
+    imageContainer.style.display = "block";
