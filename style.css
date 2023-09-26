@@ -158,7 +158,7 @@ footer {
     border: 3px solid #6EB65F;
 }
 
-.button4.hover{
+.button4:hover{
     background: #fff;
     color: #6EB65F;
     transform: scale(1.1);
@@ -175,7 +175,7 @@ footer {
 
 }
 
-.button5.hover{
+.button5:hover{
     background: #fff;
     color: #569180;
     transform: scale(1.1);
