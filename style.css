@@ -104,6 +104,7 @@ footer {
     background-color: #CF6EAD;
     border:none ;
     opacity:0.7;
+    border: 3px solid #CF6EAD;
 }
 
 .button1:hover{
