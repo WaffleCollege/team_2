@@ -104,6 +104,7 @@ footer {
     background-color: #CF6EAD;
     border:none ;
     opacity:0.7;
+    border: 3px solid #CF6EAD;
 }
 
 .button1:hover{
@@ -120,6 +121,13 @@ footer {
     background-color:#FFD978;
     border:none ;
     opacity:0.7;
+    border: 3px solid #FFD978; 
+}
+
+.button2:hover{
+    background: #fff;
+    color: #FFD978;
+    transform: scale(1.1);
 }
 
 .button3 {
@@ -130,6 +138,13 @@ footer {
     background-color:#FFEC99;
     border:none ;
     opacity:0.7;
+    border: 3px solid #FFEC99;
+}
+
+.button3:hover{
+    background: #fff;
+    color: #FFEC99;
+    transform: scale(1.1);
 }
 
 .button4 {
@@ -140,6 +155,13 @@ footer {
     background-color:#6EB65F;
     border:none ;
     opacity:0.7;
+    border: 3px solid #6EB65F;
+}
+
+.button4.hover{
+    background: #fff;
+    color: #6EB65F;
+    transform: scale(1.1);
 }
 
 .button5{
@@ -149,7 +171,14 @@ footer {
     height:70px;
     width:120px;
     opacity:0.7;
+    border: 3px solid #569180;
 
+}
+
+.button4.hover{
+    background: #fff;
+    color: #569180;
+    transform: scale(1.1);
 }
 
 .pic{
