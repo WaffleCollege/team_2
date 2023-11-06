@@ -193,23 +193,11 @@ footer {
     transition: 0.5s;
 }
 
-.pic{
-    float:left;
-}
-
 .images{
-     height:200px;
-     width:300px;
+     width: auto;
 }
 
-.image-container{
-    padding-top:40px;
+/* 一覧表示画面のCSS　さや */
+.card{
+    margin: 10% auto; 
 }
-
-
-.txt{
-    width:800px;
-    text-align:center;
-    float:right;
-}
-
