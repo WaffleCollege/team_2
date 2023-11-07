@@ -12,9 +12,79 @@ function escapeHtml(text) {
     });
 }
 
+const images = document.querySelectorAll(".images");
+const explanations = document.querySelectorAll(".explanation");
+const cards = document.getElementsByClassName("card");
+
+
+// 一覧表示機能　さや担当
+// GASのURLを渡してfetchファンクションを呼ぶ、最強ちゃんからURLをもらう
+// fetch(
+//     `【ここに公開したWebアプリケーションURL】`,
+//     {
+//       method: "GET"
+//     }
+//   )
+//     // データを取得した場合
+//     .then(function(data) {
+//       console.log(data);
+//     })
+//     // サーバーがエラーを返した場合
+//     .catch(function(error) {
+//       console.log(error);
+//     });
+
+function makeCard(allData){
+      
+    for(let i = 0; i < allData.length; i++){
+        //要素を複製
+        let newCard = cards[i].cloneNode(true);
+        //複製した要素を編集
+        let cardTitle = newCard.querySelector("h5");
+        cardTitle.innerHTML = allData[i].title;
+        let cardImage = newCard.querySelector("img");
+        cardImage.src = allData[i].image;
+        let cardExplanation = newCard.querySelector("p");
+        cardExplanation.innerHTML = allData[i].explanation;
+        let cardLink = newCard.querySelector("a");
+        cardLink.href = allData[i].link;
+
+        //最新の情報を一番上に更新
+        cards[0].before(newCard);
+    }
+    //複製元のフォーマットは非表示
+    cards[cards.length-1].style.display = "none";
+}
+
+// test用データ,　GASのデータに変更
+const dataFromGAS = [
+    {image:"images/saya_team2.jpg",
+    title:"ミルフィーユが大好物の私。",
+    explanation:"<br> 姉に誕生日祝いに連れてきてもらいました！\
+    <br>季節のフルーツを楽しめます。<br>オシャレな雰囲気は女子会にぴったりでした♪ \
+    <br><br>季節のミルフィーユ: ¥1,980\
+    <br><br>TREE by NAKED yoyogi park\
+    <br>東京都渋谷区富ヶ谷間1-10-2\
+    <br> <br>代々木公園駅　徒歩1分",
+    link:"https://maps.app.goo.gl/jTgMiuuAVFuBTL2H8"},
+
+    {image:"images/haruka_team2.jpg",
+    title:"ハワイアンカフェ カプカ",
+    explanation:"ハワイアンカフェ。\
+    <br>カプカふらっと入ったカフェのご飯が美味しそうで、ランチも注文してしまいました！\
+    <br>もちろん味もとても美味しいです、内装も沖縄とハワイがかけ合わさってる感じでとても素敵でした！\
+    <br>アメリカンビレッジと海のそばで立地も良かったです!!\
+    <br><br>モチコチキンランチ　2000円\
+    <br><br>沖縄県中頭郡北谷町美浜３４−３ デポセントラル地下 1階",
+    link:"https://maps.app.goo.gl/GUpabM3sGhrTGEMt9"},
+
+];
+
+makeCard(dataFromGAS);
+
+// 以上、さや編集
+
 function changeImage(buttonNumber) {
-    const images = document.querySelectorAll(".images");
-    const explanations = document.querySelectorAll(".explanation");
 
     // ボタンに応じて画像とテキストを変更
     if (buttonNumber === 1) {
@@ -92,14 +162,3 @@ function changeImage(buttonNumber) {
         }
     }
      // 他のボタンに対する処理も追加
-
-
-    // 画像とテキストを表示
-    images.forEach(image => {
-        image.style.display = "block";
-    });
-    explanations.forEach(explanation => {
-        explanation.style.display = "block";
-    });
-
-
