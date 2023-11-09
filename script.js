@@ -162,3 +162,9 @@ function changeImage(buttonNumber) {
         }
     }
      // 他のボタンに対する処理も追加
+
+// DOMが読み込まれた後に実行するコード
+document.addEventListener('DOMContentLoaded', function() {
+    // ここにDOM操作やイベントリスナーの設定を行うコードを書く
+    var stickyButton = new Sticky('.sticky');
+});
