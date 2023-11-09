@@ -1,0 +1,54 @@
+main {
+    width:1200px;
+    text-align:center;
+    height:600px;
+
+}
+
+.title input[type="text"] {
+    width: 200px;
+    height: 30px;
+    overflow-wrap: break-word;
+  }
+  
+  .explain input[type="text"] {
+    width: 400px;
+    height: 300px;
+    word-wrap:break-word;
+  }
+
+  .picture {
+    padding-top: 40px;
+  }
+
+  .title {
+    padding-top: 30px;
+  }
+
+  .explain{
+    padding-top: 30px;
+  }
+
+  .next {
+    float: right;
+    padding-right:30px;
+    padding-bottom: 30px;
+    height: 50px;
+    width: 100px;
+  }
+
+  .image-button {
+    padding-top:30px;
+  }
+
+  .who-button{
+    padding-top:30px;
+  }
+
+  .button-post{
+    padding-top: 50px;
+  }
+
+.button:active{
+     background-color:darkgray;
+  }
