@@ -20,7 +20,7 @@ const cards = document.getElementsByClassName("card");
 // 一覧表示機能　さや担当
 // GASのURLを渡してfetchファンクションを呼ぶ、最強ちゃんからURLをもらう
  fetch(
-     `【https://script.google.com/macros/s/AKfycbxOF-Hjy7xOPdhV3FSCKWPzY7ISo7EogqRbWXeI4Kg8gxy2q3YXWHHns6mcKUKL0yPpbA/exec】`,
+     `【https://script.google.com/macros/s/AKfycby8kRIor5xtVJ9Qf7x7iWYkkmsTETnT-rGR2Gamtd1-4q_G9t6ViV6gilyZDOmGa0gHWg/exec】`,
      {
        method: "GET"
      }
