@@ -19,20 +19,20 @@ const cards = document.getElementsByClassName("card");
 
 // 一覧表示機能　さや担当
 // GASのURLを渡してfetchファンクションを呼ぶ、最強ちゃんからURLをもらう
-// fetch(
-//     `【ここに公開したWebアプリケーションURL】`,
-//     {
-//       method: "GET"
-//     }
-//   )
+ fetch(
+     `【https://script.google.com/macros/s/AKfycbxOF-Hjy7xOPdhV3FSCKWPzY7ISo7EogqRbWXeI4Kg8gxy2q3YXWHHns6mcKUKL0yPpbA/exec】`,
+     {
+       method: "GET"
+     }
+   )
 //     // データを取得した場合
-//     .then(function(data) {
-//       console.log(data);
-//     })
+     .then(function(data) {
+               console.log(data);
+     })
 //     // サーバーがエラーを返した場合
-//     .catch(function(error) {
-//       console.log(error);
-//     });
+     .catch(function(error) {
+       console.log(error);
+     });
 
 function makeCard(allData){
       
