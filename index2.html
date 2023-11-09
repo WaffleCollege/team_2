@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="next.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-button">
+            <a href="#" class="btn">←戻る</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-wrapper">
+            <div class="picture">
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <input type="file" name="test">
+                    <!-- <input type="submit" value="送信する"> -->
+                </form>
+            </div>
+            <div class="title">
+                <form action="form.php" method="post">
+                  
+                        <label for="message">title:</label><br>
+                        <input type="text" id="description" />
+                        
+                    </div>
+            <div class="explain">
+                <form action="form.php" method="post">
+                    <div>
+                        <label for="message">説明文:</label><br>
+                        <input type="text" id="description" />
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <div class="next">
+            <button id="changeButton">次へ→</button>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
