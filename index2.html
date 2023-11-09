@@ -17,22 +17,23 @@
 
     <main>
         <div class="main-wrapper">
+            <form action="#" method="post" enctype="multipart/form-data">
+            <div class="form-group">
             <div class="picture">
-                <form action="#" method="post" enctype="multipart/form-data">
-                    <input type="file" name="test">
+                    <input type="file"  id= "test" name="test" class = "form-control">
                     <!-- <input type="submit" value="送信する"> -->
                 </form>
             </div>
+            </div>
+            <div class="form-group">
             <div class="title">
-                <form action="form.php" method="post">
-                  
                         <label for="message">title:</label><br>
                         <input type="text" id="description" />
                         
                     </div>
+            </div>
+            <div class ="form-group">
             <div class="explain">
-                <form action="form.php" method="post">
-                    <div>
                         <label for="message">説明文:</label><br>
                         <input type="text" id="description" />
                         
