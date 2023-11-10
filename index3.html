@@ -11,23 +11,37 @@
 <body>
     <header>
         <div class="header-button">
-            <a href="#" class="btn">←戻る</a>
+            <a href="https://docs.google.com/spreadsheets/d/1z494okJcwOO-4X0BjdePbIr1fIJxli7oF-dWxdZujXE/edit#gid=0" class="btn">←戻る</a>
         </div>
     </header>
     <main>
-        <div class="text">
-                
-                        <label for="message">URL:</label><br>
-                        <input type="text" id="description" />
-
+        <div class ="container">
+            <form action="https://docs.google.com/spreadsheets/d/1z494okJcwOO-4X0BjdePbIr1fIJxli7oF-dWxdZujXE/edit#gid=0" method="POST" id="myForm">
+                <div class ="form-group">
+                 <div class="URL">
+                        <p>URL:</p>
+                        <input type="text" id="description" name="link" />
+                       
                         <div class="image-button">
                             <h3>気分を選ぶ</h3>
                             <p>※一つまで</p>
-                            <button class="button1" onclick="changeImage(1)">記念日</button>
+                            
+                                <input type="radio" name="scene" value="1" id="anniverser">
+                                <label for="anniversery" class="label" id="anniversery">Anniversery</label>
+                            
+                           
+                                <input type="radio" name="scene" value="2" id="hawaii">
+                                <label for="hawaii" class="label" id="hawaii">Hawaii</label>
+
+                                <input type="radio" name="scene" value="3" id="party">
+                                <label for="party" class="label" id="party">Party</label>
+
+
+                            <!-- <button class="button1" onclick="changeImage(1)">記念日</button>
                             <button class="button2" onclick="changeImage(2)">Hawaii</button>
                             <button class="button3" onclick="changeImage(3)">Relax</button>
                             <button class="button4" onclick="changeImage(4)">Party</button>
-                            <button class="button5" onclick="changeImage(5)">Simple</button>
+                            <button class="button5" onclick="changeImage(5)">Simple</button> -->
 
                             <!-- <button type="button" class="btn btn-outline-warning">Warning</button>
                             <button type="button" class="btn btn-outline-info">Info</button>
@@ -38,16 +52,21 @@
                          <div class="who-button">
                             <h3>誰と行くか</h3>
                             <p>※一つまで</p>
-                            <!-- <button class="button1-1" onclick="changeImage(1-1)">家族と</button> -->
-                            <!-- <button class="button2-1" onclick="changeImage(2-1)">友人と</button> -->
-                            <!-- <button class="button3-1" onclick="changeImage(3-1)">恋人と</button> -->
-                            <!-- <button class="button4-1" onclick="changeImage(4-1)">同期と</button> -->
-                            <!-- <button class="button5-1" onclick="changeImage(5-1)"></button> -->
+                            <input type="radio" name="mood" value="w1" id="family">
+                                <label for="family" class="label" id="anniversery">家族と</label>
+                     
+                            <input type="radio" name="mood" value="w2" id="friend">
+                                <label for="friend" class="label" id="friend">友達と</label>
 
-                            <button type="button" class="btn btn-outline-primary" >家族と</button>
+                        　　 <input type="radio" name="mood" value="w3" id="partner">
+                                <label for="partner" class="label" id="partner">パートナーと</label>
+
+                            <input type="radio" name="mood" value="w4" id="colleage">
+                                <label for="colleage" class="label" id="colleage">同期と</label>
+                            <!-- <button type="button" class="btn btn-outline-primary" >家族と</button>
                             <button type="button" class="btn btn-outline-secondary">友人と</button>
                             <button type="button" class="btn btn-outline-success">恋人と</button>
-                            <button type="button" class="btn btn-outline-danger">同期と</button>
+                            <button type="button" class="btn btn-outline-danger">同期と</button> -->
                             <!-- <button type="button" class="btn btn-outline-warning">Warning</button>
                             <button type="button" class="btn btn-outline-info">Info</button>
                             <button type="button" class="btn btn-outline-light">Light</button>
@@ -55,12 +74,12 @@
 
                          </div>
                         <div class = "button-post">
-                            <form action="#" method="post" enctype="multipart/form-data">
-                            <button id="js-btn">投稿する</button>
-                            </form>
+                                <input type="submit" value="送信する"id="js-btn">
+                           
                         </div> 
-                        
+                        </div>
                     </div>
+                </form>
                     
 　　　<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
