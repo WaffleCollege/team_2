@@ -1,9 +1,15 @@
-document.getElementById('js-btn').addEventListener('click', function(event) {
-  event.preventDefault(); // フォームの通常の送信を防止
-  alert('送信しますか？');
-  submitForm();
+// document.getElementById('js-btn').addEventListener('click', function(event) {
+//   event.preventDefault(); // フォームの通常の送信を防止
+//   alert('送信しますか？');
+//   submitForm();
+// });
+$(document).ready(function() {
+  $("#js-btn").click(function(event) {
+      event.preventDefault(); // フォームの通常の送信を防止
+      alert('送信しますか？');
+      submitForm();
+  });
 });
-
 
 function submitForm() {
   var form = document.getElementById('myForm');

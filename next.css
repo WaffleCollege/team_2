@@ -1,7 +1,7 @@
 main {
   width:1200px;
   text-align:center;
-  height:600px;
+  height:500px;
 
 }
 
@@ -39,6 +39,7 @@ main {
 
 .image-button {
   padding-top:30px;
+  font-family: serif;
 }
 
 .who-button{
@@ -58,6 +59,13 @@ display: none;
 label {
 /* display: block;  */
 /* float: left;  */
+
+}
+
+
+
+#anniversery{
+color: white;
 margin: 5px; /* ボックス外側の余白を指定する */
 width: 100px; /* ボックスの横幅を指定する */
 height: 45px; /* ボックスの高さを指定する */
@@ -67,26 +75,153 @@ padding-right: 5px; /* ボックス内御右側の余白を指定する */
 text-align: center; /* テキストのセンタリングを指定する */
 line-height: 45px; /* 行の高さを指定する */
 cursor: pointer; /* マウスカーソルの形（リンクカーソル）を指定する */
-border: 2px solid #006DD9;/* ボックスの境界線を実線で指定する */
-border-radius: 5px; 
+border: 2px solid rgb(240, 162, 204);/* ボックスの境界線を実線で指定する */
+border-radius: 30px; 
+background-color: #e465b7;
+opacity: 0.8;
 }
 
-input[type="radio"]:checked + label {
-  background: #31A9EE;/* マウス選択時の背景色を指定する */
-  color: #ffffff; /* マウス選択時のフォント色を指定する */
-  }
+#anniversery:checked+label{
+  background: white;
+  color:deeppink;
+  opacity: 0.5;
+  border: 2px solid deeppink;/* ボックスの境界線を実線で指定する */
 
-label:hover {
-    background-color:#ff701e }
-
-#anniversery{
-color: chocolate;
 }
 
 #hawaii {
-color: gold;
+color: white;
+margin: 5px; /* ボックス外側の余白を指定する */
+width: 100px; /* ボックスの横幅を指定する */
+height: 45px; /* ボックスの高さを指定する */
+padding-left: 5px; /* ボックス内左側の余白を指定する */
+padding-right: 5px; /* ボックス内御右側の余白を指定する */
+/* color: #b20000; */
+text-align: center; /* テキストのセンタリングを指定する */
+line-height: 45px; /* 行の高さを指定する */
+cursor: pointer; /* マウスカーソルの形（リンクカーソル）を指定する */
+border: 2px solid #fff678;/* ボックスの境界線を実線で指定する */
+border-radius: 30px; 
+background-color: #FFD978;
 }
 
-#party {
-color: deeppink;
+#hawaii:checked+label{
+  background: white;
+  color:#FFD978;
+  opacity: 1.1;
+  border: 2px solid #fff678;
 }
+
+#party{
+color: white;
+margin: 5px; /* ボックス外側の余白を指定する */
+width: 100px; /* ボックスの横幅を指定する */
+height: 45px; /* ボックスの高さを指定する */
+padding-left: 5px; /* ボックス内左側の余白を指定する */
+padding-right: 5px; /* ボックス内御右側の余白を指定する */
+/* color: #b20000; */
+text-align: center; /* テキストのセンタリングを指定する */
+line-height: 45px; /* 行の高さを指定する */
+cursor: pointer; /* マウスカーソルの形（リンクカーソル）を指定する */
+border: 2px solid rgb(17, 205, 133);/* ボックスの境界線を実線で指定する */
+background-color:#6EB65F;
+opacity:0.8;
+border-radius: 30px; 
+}
+
+#anniversery:hover{
+   background-color: white;
+   color:deeppink;
+   transform: scale(1.1);
+    box-shadow: none;
+    transition: 0.5s;
+}
+
+#hawaii:hover{
+  background-color: white;
+  color:#FFD978;
+  transform: scale(1.1);
+    box-shadow: none;
+    transition: 0.5s;
+}
+
+#party:hover{
+  background-color: white;
+    color:#6EB65F;
+  transform: scale(1.1);
+    box-shadow: none;
+    transition: 0.5s;
+}
+
+#party:checked+label{
+  background: white;
+  color:#6EB65F;
+  opacity: 1.1;
+  border: 2px solid rgb(17, 205, 133);
+}
+
+
+
+#family{
+    color: white;
+    margin: 5px; /* ボックス外側の余白を指定する */
+    width: 100px; /* ボックスの横幅を指定する */
+    height: 45px; /* ボックスの高さを指定する */
+    padding-left: 5px; /* ボックス内左側の余白を指定する */
+    padding-right: 5px; /* ボックス内御右側の余白を指定する */
+    /* color: #b20000; */
+    text-align: center; /* テキストのセンタリングを指定する */
+    line-height: 45px; /* 行の高さを指定する */
+    cursor: pointer; /* マウスカーソルの形（リンクカーソル）を指定する */
+    border: 2px solid rgb(17, 205, 133);/* ボックスの境界線を実線で指定する */
+    background-color:#6EB65F;
+    opacity:0.8;
+    border-radius: 30px; 
+    }
+
+#family:hover{
+      background-color: white;
+        color:#6EB65F;
+      transform: scale(1.1);
+        box-shadow: none;
+        transition: 0.5s;
+    }
+    
+#family:checked+label{
+      background: white;
+      color:#6EB65F;
+      opacity: 1.1;
+      border: 2px solid rgb(17, 205, 133);
+    }
+    
+#friend{
+      color: white;
+      margin: 5px; /* ボックス外側の余白を指定する */
+      width: 100px; /* ボックスの横幅を指定する */
+      height: 45px; /* ボックスの高さを指定する */
+      padding-left: 5px; /* ボックス内左側の余白を指定する */
+      padding-right: 5px; /* ボックス内御右側の余白を指定する */
+      /* color: #b20000; */
+      text-align: center; /* テキストのセンタリングを指定する */
+      line-height: 45px; /* 行の高さを指定する */
+      cursor: pointer; /* マウスカーソルの形（リンクカーソル）を指定する */
+      border: 2px solid rgb(17, 152, 205);/* ボックスの境界線を実線で指定する */
+      background-color:#5f82b6;
+      opacity:0.8;
+      border-radius: 30px; 
+      }
+      
+#friend:hover{
+        background-color: white;
+          color: #5f82b6;
+        transform: scale(1.1);
+          box-shadow: none;
+          transition: 0.5s;
+      }
+
+#friend:checked+label{
+        background: white;
+        color:#5f82b6;
+        opacity: 1.1;
+        border: 2px solid rgb(17, 152, 205);
+      }
