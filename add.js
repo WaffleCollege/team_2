@@ -15,7 +15,7 @@ function submitForm() {
   var form = document.getElementById('myForm');
   var formData = new FormData(form);
   var xhr = new XMLHttpRequest();
-  xhr.open('POST', 'https://script.google.com/macros/s/AKfycbxckrQ3m4SJweqvhINsnVQeksRT9KOKdWmiR5qiJE3uMrgJ-R7pJY2UGASC2VQ1AGzU/exec', true);
+  xhr.open('POST', 'https://script.google.com/macros/s/AKfycbzGg-U4BnXbMQQkXvJjHV3NffEbqRN38v21bNaZNCXxcCLVqRUmshtN5odGVqoYYKYoxQ/exec', true);
   xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
   xhr.send(JSON.stringify(Object.fromEntries(formData)));
 }
