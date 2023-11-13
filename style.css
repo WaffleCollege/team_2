@@ -15,6 +15,13 @@ footer {
     display: none;
 }
 
+/* ヘッダーフォント　最強 */
+
+h1 {
+    font-family: 'Cinzel', serif;
+  }
+  
+
 /* nav作成　さや */
 
 .material-symbols-outlined {
