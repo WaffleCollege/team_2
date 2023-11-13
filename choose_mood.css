@@ -1,0 +1,213 @@
+
+.link-area{
+    height: 10px;
+  }
+
+  .url_wrapper{
+    margin-top: 5%;
+    width: 70%;
+    margin-bottom: 5%;
+  }
+  
+  .image-button {
+    /* padding-top:30px; */
+    font-family: serif;
+  }
+  
+  .who-button{
+    /* padding-top:30px; */
+  }
+  
+  .button-post{
+    padding-top: 50px;
+  }
+  
+  .form-check-label{
+    display: visible; 
+   }
+  
+  .mood_btn{
+  display: none;
+  }
+  
+  label {
+  /* display: block;  */
+  /* float: left;  */
+  
+  }
+  
+  .accordion {
+    width: 80%;
+  }
+
+  
+  
+  #anniversery{
+  color: white;
+  margin: 5px; /* ボックス外側の余白を指定する */
+  width: 100px; /* ボックスの横幅を指定する */
+  height: 45px; /* ボックスの高さを指定する */
+  padding-left: 5px; /* ボックス内左側の余白を指定する */
+  padding-right: 5px; /* ボックス内御右側の余白を指定する */
+  /* color: #b20000; */
+  text-align: center; /* テキストのセンタリングを指定する */
+  line-height: 45px; /* 行の高さを指定する */
+  cursor: pointer; /* マウスカーソルの形（リンクカーソル）を指定する */
+  border: 2px solid rgb(240, 162, 204);/* ボックスの境界線を実線で指定する */
+  border-radius: 30px; 
+  background-color: #e465b7;
+  opacity: 0.8;
+  }
+  
+  #anniversery:checked+label{
+    background: white;
+    color:deeppink;
+    opacity: 0.5;
+    border: 2px solid deeppink;/* ボックスの境界線を実線で指定する */
+  }
+  
+  #hawaii {
+  color: white;
+  margin: 5px; /* ボックス外側の余白を指定する */
+  width: 100px; /* ボックスの横幅を指定する */
+  height: 45px; /* ボックスの高さを指定する */
+  padding-left: 5px; /* ボックス内左側の余白を指定する */
+  padding-right: 5px; /* ボックス内御右側の余白を指定する */
+  /* color: #b20000; */
+  text-align: center; /* テキストのセンタリングを指定する */
+  line-height: 45px; /* 行の高さを指定する */
+  cursor: pointer; /* マウスカーソルの形（リンクカーソル）を指定する */
+  border: 2px solid #f3bc31;/* ボックスの境界線を実線で指定する */
+  border-radius: 30px; 
+  background-color: #f3bc31;
+  }
+  
+  #hawaii:checked+label{
+    background: white;
+    color:#f3bc31;
+    opacity: 1.1;
+    border: 2px solid #f3bc31;
+  }
+  #relax {
+    color: white;
+    margin: 5px; /* ボックス外側の余白を指定する */
+    width: 100px; /* ボックスの横幅を指定する */
+    height: 45px; /* ボックスの高さを指定する */
+    padding-left: 5px; /* ボックス内左側の余白を指定する */
+    padding-right: 5px; /* ボックス内御右側の余白を指定する */
+    /* color: #b20000; */
+    text-align: center; /* テキストのセンタリングを指定する */
+    line-height: 45px; /* 行の高さを指定する */
+    cursor: pointer; /* マウスカーソルの形（リンクカーソル）を指定する */
+    border: 2px solid #78aaff;/* ボックスの境界線を実線で指定する */
+    border-radius: 30px; 
+    background-color: #78aaff;
+    }
+    
+    #relax:checked+label{
+      background: white;
+      color:#78aaff;
+      opacity: 1.1;
+      border: 2px solid #78aaff;
+    }
+
+    #relax:hover{
+        background-color: white;
+          color:#5f82b6;
+        transform: scale(1.1);
+          box-shadow: none;
+          transition: 0.5s;
+      }
+
+  #party{
+  color: white;
+  margin: 5px; /* ボックス外側の余白を指定する */
+  width: 100px; /* ボックスの横幅を指定する */
+  height: 45px; /* ボックスの高さを指定する */
+  padding-left: 5px; /* ボックス内左側の余白を指定する */
+  padding-right: 5px; /* ボックス内御右側の余白を指定する */
+  /* color: #b20000; */
+  text-align: center; /* テキストのセンタリングを指定する */
+  line-height: 45px; /* 行の高さを指定する */
+  cursor: pointer; /* マウスカーソルの形（リンクカーソル）を指定する */
+  border: 2px solid #6EB65F;/* ボックスの境界線を実線で指定する */
+  background-color:#6EB65F;
+  opacity:0.8;
+  border-radius: 30px; 
+  }
+
+  #simple{
+    color: white;
+    margin: 5px; /* ボックス外側の余白を指定する */
+    width: 100px; /* ボックスの横幅を指定する */
+    height: 45px; /* ボックスの高さを指定する */
+    padding-left: 5px; /* ボックス内左側の余白を指定する */
+    padding-right: 5px; /* ボックス内御右側の余白を指定する */
+    /* color: #b20000; */
+    text-align: center; /* テキストのセンタリングを指定する */
+    line-height: 45px; /* 行の高さを指定する */
+    cursor: pointer; /* マウスカーソルの形（リンクカーソル）を指定する */
+    border: 2px solid #4e4e4e;/* ボックスの境界線を実線で指定する */
+    background-color:#4e4e4e;
+    opacity:0.8;
+    border-radius: 30px; 
+    }
+    #simple:hover{
+        background-color: white;
+        color:#4e4e4e;
+        transform: scale(1.1);
+         box-shadow: none;
+         transition: 0.5s;
+     }
+  
+  #anniversery:hover{
+     background-color: white;
+     color:deeppink;
+     transform: scale(1.1);
+      box-shadow: none;
+      transition: 0.5s;
+  }
+  
+  #hawaii:hover{
+    background-color: white;
+    color:#FFD978;
+    transform: scale(1.1);
+      box-shadow: none;
+      transition: 0.5s;
+  }
+  
+  #party:hover{
+    background-color: white;
+      color:#6EB65F;
+    transform: scale(1.1);
+      box-shadow: none;
+      transition: 0.5s;
+  }
+  
+  #party:checked+label{
+    background: white;
+    color:#6EB65F;
+    opacity: 1.1;
+    border: 2px solid rgb(17, 205, 133);
+  }
+  
+
+/* 誰といくか */
+.form-check-input{
+    margin-top: 1%;
+}
+.form-check-label{
+    margin-top: 1%;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+.accordion .accordion-flush{
+    margin-top: 20%;
+}
+.button-post{
+    float: right;
+    margin: 3%;
+    width: 200px;
+    height: 50px;
+}
