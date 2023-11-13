@@ -16,6 +16,8 @@ const images = document.querySelectorAll(".images");
 const explanations = document.querySelectorAll(".explanation");
 const cards = document.getElementsByClassName("card");
 
+//ハートのところ
+
 document.addEventListener('DOMContentLoaded', () => {
     // 全てのハートアイコンを選択
     const heartIcons = document.querySelectorAll('.material-symbols-outlined');
