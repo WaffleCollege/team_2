@@ -16,11 +16,22 @@ const images = document.querySelectorAll(".images");
 const explanations = document.querySelectorAll(".explanation");
 const cards = document.getElementsByClassName("card");
 
+document.addEventListener('DOMContentLoaded', () => {
+    // 全てのハートアイコンを選択
+    const heartIcons = document.querySelectorAll('.material-symbols-outlined');
+    // 各アイコンに対してイベントリスナーを追加
+    heartIcons.forEach(icon => {
+      icon.addEventListener('click', () => {
+        icon.classList.toggle('pink'); // クリックされたアイコンだけをピンクに切り替え
+      });
+    });
+  });
+
 
 // 一覧表示機能　さや担当
 // GASのURLを渡してfetchファンクションを呼ぶ、最強ちゃんからURLをもらう
  fetch(
-     `【https://script.google.com/macros/s/AKfycby8kRIor5xtVJ9Qf7x7iWYkkmsTETnT-rGR2Gamtd1-4q_G9t6ViV6gilyZDOmGa0gHWg/exec】`,
+     `https://script.google.com/macros/s/AKfycby8kRIor5xtVJ9Qf7x7iWYkkmsTETnT-rGR2Gamtd1-4q_G9t6ViV6gilyZDOmGa0gHWg/exec`,
      {
        method: "GET"
      }
