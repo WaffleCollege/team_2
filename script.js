@@ -110,6 +110,9 @@ function changeImage(buttonNumber) {
         title.forEach(titles =>{
             titles.innerHTML="ミルフィーユが大好物の私。";
         })
+        link.forEach(links =>{
+            links.innerHTML="詳細を見る";
+        })
         }  else if (buttonNumber === 2) {
         images.forEach(image => {
             image.src = "images/haruka_team2.jpg";　//はるかさんカフェ
@@ -127,7 +130,10 @@ function changeImage(buttonNumber) {
         });
         title.forEach(titles =>{
             titles.innerHTML="ハワイアンカフェ";
-        })
+        });
+        link.forEach(links =>{
+            links.innerHTML="詳細を見る";
+        });
             }else if(buttonNumber === 3){
             images.forEach(image =>{
                 image.src = "images/sumeli_team2.jpg";　//すめりさんカフェ
@@ -148,7 +154,10 @@ function changeImage(buttonNumber) {
             });
             title.forEach(titles =>{
                 titles.innerHTML="テラス席でゆったり";
-            })
+            });
+            link.forEach(links =>{
+                links.innerHTML="詳細を見る";
+            });
             }　else if(buttonNumber === 4){
                 images.forEach(image =>{
                     image.src = "images/saikyo_team2.jpg";　//最強ちゃんカフェ
@@ -172,7 +181,10 @@ function changeImage(buttonNumber) {
             });
             title.forEach(titles =>{
                 titles.innerHTML="恵比寿、横浜に展開するカフェ";
-            })
+            });
+            link.forEach(links =>{
+                links.innerHTML="詳細を見る";
+            });
         　　} else if(buttonNumber === 5){
             　　images.forEach(image =>{
                 　image.src = "images/ika_team2.jpg";　//いかさんカフェ
@@ -192,7 +204,10 @@ function changeImage(buttonNumber) {
             });
             title.forEach(titles =>{
                 titles.innerHTML="ふらっとよりたい気分";
-            })
+            });
+            link.forEach(links =>{
+                links.innerHTML="詳細を見る";
+            });
         }
     }
      // 他のボタンに対する処理も追加
