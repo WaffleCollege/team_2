@@ -202,3 +202,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // ここにDOM操作やイベントリスナーの設定を行うコードを書く
     var stickyButton = new Sticky('.sticky');
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    // 全てのハートアイコンを選択
+    const heartIcons = document.querySelectorAll('.material-symbols-outlined');
+    // 各アイコンに対してイベントリスナーを追加
+    heartIcons.forEach(icon => {
+      icon.addEventListener('click', () => {
+        icon.classList.toggle('pink'); // クリックされたアイコンだけをピンクに切り替え
+      });
+    });
+  });
